@@ -3,7 +3,7 @@ import json
 from pyspark.sql import SparkSession
 
 dependencies = [
-    "com.google.cloud.bigtable:bigtable-hbase-2.x:1.14.0",
+    "com.google.cloud.bigtable:bigtable-hbase-2.x-hadoop:1.14.0",
     "org.apache.hbase.connectors.spark:hbase-spark:1.0.0",
     "org.apache.hbase:hbase-server:2.2.3",
 ]
